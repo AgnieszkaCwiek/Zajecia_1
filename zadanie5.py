@@ -8,6 +8,13 @@ def vat_faktura(lista):
 zakupy = [0.2, 0.5, 4.59, 6]
 print(vat_faktura(zakupy))
 
-def vat_paragon(lista):v
+def vat_paragon(lista):
+    vat = 0
+    for element in lista:
+        vat = round(vat + element * 0.23, 2)
 
-#zrobić
+    return vat
+
+
+zakupy = [0.2, 0.5, 4.59, 6]
+print(vat_paragon(zakupy))
