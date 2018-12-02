@@ -6,4 +6,6 @@ def suma_dzielnikow(n):
             suma = suma + k
     return suma
 
-print(suma_dzielnikow(8))
+
+if __name__ == '__main__':
+    print(suma_dzielnikow(28))

@@ -1,37 +1,13 @@
-#zad 3
+from zajecia2_zad3 import lista_dzielnikow
 
-def lista_dzielnikow(n):  #zrobic tu odwolanie do sumy dzielnikow!!! a nie wykorzystac ja 
-    dzielniki = []
-    suma = 0
-    for k in range(1, n):
-        modulo = n % k
-        if modulo == 0:
-            suma = suma + k
-            dzielniki.append(k)
-    return dzielniki
-
-print(lista_dzielnikow(32))
-
-#zad 4
 
 def pierwsza(n):
+    return lista_dzielnikow(n) == [1, n]
 
-        dzielniki = []
-        suma = 0
-        for k in range(1, n):
-            modulo = n % k
-            if modulo == 0:
-                suma = suma + k
-                dzielniki.append(k)
 
-        if dzielniki == [1]:
-            print("Liczba jest pierwsza.")
-        else:
-            print("Liczba nie jest pierwsza.")
+if __name__ == '__main__':
 
-pierwsza(23)
-
-#zad 5
-
-def dzielniki_pierwsze(n):
-
+    if pierwsza(24):
+        print("Liczba jest pierwsza.")
+    else:
+        print("Liczba nie jest pierwsza.")
