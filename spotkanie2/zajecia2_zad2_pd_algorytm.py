@@ -1,6 +1,6 @@
 from random import randint
 
-from zajecia2_zad2_pd_interakcja import zapalki_uzytkownika
+from spotkanie2.zajecia2_zad2_pd_interakcja import zapalki_uzytkownika
 
 #dodać sobie jakas walidacje??  Projektowanie??
 

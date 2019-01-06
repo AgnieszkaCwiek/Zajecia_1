@@ -1,4 +1,4 @@
-from zajecia2_zad3 import lista_dzielnikow
+from spotkanie2.zajecia2_zad3 import lista_dzielnikow
 
 
 def pierwsza(n):

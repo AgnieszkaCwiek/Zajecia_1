@@ -1,6 +1,6 @@
-from zajecia2_zad4 import pierwsza
-from zajecia2_zad3 import lista_dzielnikow
-from zajecia1_zad6 import suma_dzielnikow
+from spotkanie2.zajecia2_zad4 import pierwsza
+from spotkanie2.zajecia2_zad3 import lista_dzielnikow
+from spotkanie1.zajecia1_zad6 import suma_dzielnikow
 
 # dzielniki pierwsze
 

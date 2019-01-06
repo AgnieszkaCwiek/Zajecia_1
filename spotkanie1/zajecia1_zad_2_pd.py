@@ -1,3 +1,7 @@
+class NotIntErr(Exception):
+    pass
+
+
 def rachunek(kwota):
     wynik = {
         20: 0,
@@ -14,4 +18,4 @@ def rachunek(kwota):
     return wynik
 
 
-print(rachunek(123))
+print(rachunek(ddd))

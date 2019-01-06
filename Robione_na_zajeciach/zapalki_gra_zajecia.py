@@ -1,4 +1,4 @@
-import zapalki_komputer_zajecia
+from Robione_na_zajeciach import zapalki_komputer_zajecia
 
 stan_gry = 10
 
